@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container h-100">
+      <div>
+        <img src='https://devmaster.edu.vn/images/logo.png' alt='Devmaster Academy'/>
+       
+      </div>
+      <div className='text-center alert alert-info'>
+         <h1>VIỆN CÔNG NGHỆ VÀ ĐÀO TẠO DEVMASTER</h1>
+      </div>
     </div>
   );
 }
