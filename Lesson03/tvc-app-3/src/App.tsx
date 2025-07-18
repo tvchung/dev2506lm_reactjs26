@@ -12,6 +12,7 @@ import FuncListMember from './components/FuncListMember';
 import ClassMember from './components/ClassMember';
 import StudentList from './components/StudentList';
 import IStudent from './components/IStudent';
+import FuncComp4 from './components/FuncComp4';
 
 function App() {
   // Biến đối tượng
@@ -63,6 +64,7 @@ function App() {
       <ClassMember /> */}
       <hr />
       <StudentList students={students} />
+      <FuncComp4 />
     </div>
   );
 }
