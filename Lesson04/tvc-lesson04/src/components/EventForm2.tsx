@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import IStudent from './IStudent';
 interface IProps {
   onSubmit: (student: IStudent) => void;
+  
 }
 class EventForm2 extends Component<IProps,IStudent> {
     constructor(props:IProps){
